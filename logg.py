@@ -1,7 +1,10 @@
 import logging
+import logging.config
 
-  
-class mlog: 
+def init():
+    logging.config.fileConfig('./conf/logging.conf')
+
+class logg:
     def __init__(self):
         logger = logging.getLogger('self')
         logger.setLevel(logging.INFO) 
