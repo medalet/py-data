@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 db.conf
 .idea/workspace.xml
+
